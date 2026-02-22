@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Site Builder"
+  short_description: "Build personal sites from docs and media"
+  default_prompt: "Use $personal-site-builder to build my personal website from my Word/PDF reviews and travel media."
