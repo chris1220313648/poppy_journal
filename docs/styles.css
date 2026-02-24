@@ -80,7 +80,7 @@ img {
 
 .hero-card {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1fr;
   gap: 24px;
   background: var(--paper);
   border-radius: var(--radius);
@@ -126,14 +126,15 @@ img {
   color: #2d2f33;
 }
 
-.hero-image {
-  height: 100%;
+.hero-portrait {
+  margin: 10px 0 6px;
 }
 
-.hero-image img {
-  height: 100%;
+.hero-portrait img {
   width: 100%;
+  max-height: 320px;
   object-fit: cover;
+  border-radius: 14px;
 }
 
 .section {
@@ -285,12 +286,8 @@ img {
 }
 
 @media (max-width: 900px) {
-  .hero-card,
   .detail-wrap {
     grid-template-columns: 1fr;
-  }
-  .hero-image img {
-    height: 260px;
   }
   .detail-gallery img {
     height: 320px;
