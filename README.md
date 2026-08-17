@@ -11,7 +11,7 @@ pnpm test
 pnpm build
 ```
 
-生产构建输出到 `docs/`，用于 GitHub Pages 的 `/poppy/` 路径。
+生产构建输出到 `docs/`，用于 GitHub Pages 的 `/poppy_journal/` 路径。
 
 ## 隐私
 
